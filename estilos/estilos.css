@@ -411,6 +411,10 @@ hr.divider {
     color: #212529;
     text-decoration: none;
 }
+#tipos_paginas{
+    font-size: 35px;
+    margin-top: 40px;
+}
 @media only screen and (max-width: 768px){
     .enlace{
         font-size: 14px;
@@ -478,6 +482,9 @@ hr.divider {
     }
     .correo{
         font-size: 14px;
+    }
+    #tipos_paginas{
+        font-size: 25px;
     }
 }
 @media only screen and (max-width: 425px){
