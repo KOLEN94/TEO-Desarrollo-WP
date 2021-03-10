@@ -1,0 +1,215 @@
+:root {
+  /** Fuentes **/
+  --fuentePrincipal : 'Montserrat', sans-serif;
+  --fuenteTexto: 'Nunito', sans-serif;
+  --fuenteSecundaria:  'Raleway', sans-serif; 
+}
+.clearfix::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+.carrera {
+  color: #000;
+  font-weight: 700;
+  float: left!important;
+}
+.porcentaje {
+  color: #6c757d;
+  float: right!important;
+}
+.tf-inicio{
+  font-family: var(--fuentePrincipal);
+  font-size: 1.75rem;
+  padding-top: 2em;
+}
+.tf-title{
+  font-family: var(--fuentePrincipal);
+  font-size: 72px;
+  padding: 17px;
+}
+.tf-cuerpo{
+  font-family: var(--fuentePrincipal);
+  font-size: 20px;
+  font-weight: 700;
+}
+.display-4{
+  font-family: var(--fuenteTexto);
+}
+.icono-social ion-icon{
+  font-size: 25px;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 15px;
+  border-radius: 50%;
+}
+.icono-social ion-icon:hover {
+  color: #000;
+  background-color: #f8f9fa;
+  transition: 1s all ease;
+}
+.botones {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.btn {
+  font-size: 18px;
+  font-weight: 600;
+}
+.btn01 {
+  margin-right: 30px;
+  margin-left: 30px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+.botones-hero {
+  border-color: #fff;
+  border-radius: 20px;
+  margin-top: 20px;
+  color: #fff;
+}
+.tf-parrafo{
+  text-align: center;
+  color: #6c757d;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 17px;
+}
+.servicio-txt{
+  font-family: var(--fuentePrincipal);
+  font-weight: 500;
+}
+.cuadro-textos{
+  font-family: var(--fuentePrincipal);
+}
+.botones-hero:hover {
+  background-color: #fff;
+  color: #000;
+}
+.mi-progreso {
+  height: 5px;
+  border-radius: 0px;
+  margin-bottom: 40px;
+  margin-top: 10px;
+}
+.titulo-bloque{
+  text-align: center;
+  padding-top: 45px;
+  padding-bottom: 40px;
+}
+.service-content h5 {
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+}
+.text-muted{
+  font-size: 16px;
+  font-family: var(--fuenteSecundaria);
+}
+.mi-progreso {
+    height: 5px;
+    border-radius: 0px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+.progress {
+    display: flex;
+    overflow: hidden;
+    font-size: .75rem;
+    background-color: #e9ecef;
+}
+.color-progreso {
+  background: #000;
+}
+.mis-bloques{
+  padding-top: 150px;
+}
+.galeria-diploma{
+  flex-wrap: wrap;
+  display: flex;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.elemento-diploma{
+  width: 100%;
+}
+.grilla-servicios {
+  padding: 15px;
+  flex-wrap: wrap;
+  display: flex;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.rounded {
+  border-radius: .25rem!important;
+}
+.lan_box_ser {
+  border: 1px dotted #e7e7e7;
+  color: #212529;
+}
+.p-4 {
+  padding: 1.5rem!important;
+}
+.mt-3, .my-3 {
+  margin-top: 1rem!important;
+}
+.text-center {
+  text-align: center!important;
+}
+.icono-servicio {
+  font-size: 50px;
+}
+.prueba{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+.img-servicio img {
+  display: block;
+  max-width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.icono-contacto {
+  font-size: 45px;
+}
+.correo {
+  font-size: 20px;
+  color: #212529;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+}
+.correo:hover {
+  color: #212529;
+  text-decoration: none;
+}
+@media only screen and (max-width: 768px){
+  .tf-title{
+    font-size: 40px;
+  }
+  .tf-cuerpo{
+    font-size: 17px;
+  }
+  .tf-parrafo{
+    font-size: 14px;
+  }
+  .service-content h5{
+    font-size: 14px;
+  }
+  .text-muted{
+    font-size: 11px;
+  }
+  .titulo-bloque, .display-4{
+    font-size: 26px;
+  }
+  .blockquote.nk-blockquote-style-1>p{
+    font-size: 1.185rem!important;
+  }
+  .correo{
+    font-size: 14px;
+  }
+}
