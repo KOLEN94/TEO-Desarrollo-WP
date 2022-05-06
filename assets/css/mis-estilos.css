@@ -147,6 +147,12 @@
   border: 1px dotted #e7e7e7;
   color: #212529;
 }
+.nk-navbar.nk-navbar-transparent{
+  box-shadow: none;
+}
+.nk-navbar, .nk-navbar.nk-navbar-solid{
+  box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+}
 .p-4 {
   padding: 1.5rem!important;
 }
